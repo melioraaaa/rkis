@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>какое это животное?</title>
+
+    <style>
+        body {text-align: center; background-color: lightsteelblue;}
+        h1 {font-size: 48px; color: white; font-family: TT Travels;}
+        .buttons {display: flex; justify-content: center;}
+    </style>
+</head>
+
+<body>
+    <h1>КАКОЕ ЭТО ЖИВОТНОЕ?</h1>
+    <img src="https://chudo-prirody.com/uploads/posts/2021-08/1628793174_162-p-foto-memnogo-kota-172.jpg" width="1000" height="500" />
+
+    <div class="buttons">
+        <form>
+            <input type="button" value="КОТ" onClick="alert('ДА! ПРАВИЛЬНО!')">
+        </form>
+
+        <form>
+            <input type="button" value="СОБАКА" onClick="alert('НЕТ. ПОПРОБУЙТЕ ЕЩЕ РАЗ')">
+        </form>
+
+        <form>
+            <input type="button" value="ЛОШАДЬ" onClick="alert('НЕТ. ПОПРОБУЙТЕ ЕЩЕ РАЗ')">
+        </form>
+    </div>
+
+    <p>В текст этого документа внедрена гипертекстовая ссылка <a href="" onClick="window.alert('Предупреждение!')">
+        "нажмите сюда"</a></p>
+</body>
+</html>
